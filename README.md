@@ -14,63 +14,52 @@ This ensures the model stays dynamic and can simulate real-world scenarios effec
 
 ## 📁 Project Structure
 
-├── app.py                 # Streamlit frontend for prediction
+* 📄 `app.py` — Streamlit frontend for prediction
+* 📄 `generate_data.py` — Script to generate housing dataset
+* 📄 `train.py` — Model training script
+* 📊 `house_data.csv` — Generated dataset
 
-├── generate_data.py       # Script to generate housing dataset
-
-├── train.py               # Model training script
-
-└── house_data.csv         # Generated dataset
+---
 
 ## ⚙️ How It Works
+
 * `generate_data.py` creates a dataset with features like area, bedrooms, bathrooms, etc.
 * `train.py` trains a machine learning model using this dataset.
 * `app.py` loads the trained model and provides a web interface for predictions.
 
 ## 🚀 Getting Started
 
-1️⃣ Install Dependencies
-
-    pip install -r requirements.txt
-  
-2️⃣ Generate Data
-
+### 1️⃣ Install Dependencies
+        pip install -r requirements.txt
+### 2️⃣ Generate Data
     python generate_data.py
-  
-3️⃣ Train Model
-
+### 3️⃣ Train Model
     python train.py
-  
-4️⃣ Run the App
-
+### 4️⃣ Run the App
     streamlit run app.py
-  
-🧠 Tech Stack
+## 🧠 Tech Stack
+Python
 
-    Python
-    
-    Pandas, NumPy
-    
-    Scikit-learn
-    
-    Streamlit
+Pandas, NumPy
 
-📊 Features
+Scikit-learn
 
-    Dynamic dataset generation
-    
-    Automated model training
-    
-    Real-time price prediction
-    
-    Simple and interactive UI
+Streamlit
 
-🔮 Future Improvements
+## 📊 Features
+Dynamic dataset generation
 
-    Use real-world datasets
-    
-    Add model persistence (save/load model)
-    
-    Improve UI design
-    
-    Deploy on cloud (Streamlit Cloud / Heroku)
+Automated model training
+
+Real-time price prediction
+
+Simple and interactive UI
+
+## 🔮 Future Improvements
+Use real-world datasets
+
+Add model persistence (save/load model)
+
+Improve UI design
+
+Deploy on cloud (Streamlit Cloud / Heroku)
