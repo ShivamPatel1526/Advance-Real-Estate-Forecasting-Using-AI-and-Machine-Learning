@@ -15,8 +15,11 @@ This ensures the model stays dynamic and can simulate real-world scenarios effec
 ## 📁 Project Structure
 
 ├── app.py               # Streamlit frontend for prediction
+
 ├── generate_data.py     # Script to generate housing dataset
+
 ├── train.py             # Model training script
+
 └── house_data.csv       # Generated dataset
 
 ## ⚙️ How It Works
@@ -27,24 +30,37 @@ This ensures the model stays dynamic and can simulate real-world scenarios effec
 ## 🚀 Getting Started
 
 1️⃣ Install Dependencies
+
   pip install -r requirements.txt
+  
 2️⃣ Generate Data
+
   python generate_data.py
+  
 3️⃣ Train Model
+
   python train.py
+  
 4️⃣ Run the App
+
   streamlit run app.py
   
 🧠 Tech Stack
   Python
+  
   Pandas, NumPy
+  
   Scikit-learn
+  
   Streamlit
 
 📊 Features
   Dynamic dataset generation
+  
   Automated model training
+  
   Real-time price prediction
+  
   Simple and interactive UI
 
 🔮 Future Improvements
