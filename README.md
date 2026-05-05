@@ -14,20 +14,18 @@ This ensures the model stays dynamic and can simulate real-world scenarios effec
 
 ## 📁 Project Structure
 
-```text
 ├── app.py               # Streamlit frontend for prediction
 ├── generate_data.py     # Script to generate housing dataset
 ├── train.py             # Model training script
 └── house_data.csv       # Generated dataset
 
-⚙️ How It Works
-generate_data.py creates a dataset with features like area, bedrooms, bathrooms, etc.
+## ⚙️ How It Works
+* `generate_data.py` creates a dataset with features like area, bedrooms, bathrooms, etc.
+* `train.py` trains a machine learning model using this dataset.
+* `app.py` loads the trained model and provides a web interface for predictions.
 
-train.py trains a machine learning model using this dataset.
+## 🚀 Getting Started
 
-app.py loads the trained model and provides a web interface for predictions.
-
-🚀 Getting Started
 1️⃣ Install Dependencies
   pip install -r requirements.txt
 2️⃣ Generate Data
@@ -36,7 +34,7 @@ app.py loads the trained model and provides a web interface for predictions.
   python train.py
 4️⃣ Run the App
   streamlit run app.py
-
+  
 🧠 Tech Stack
   Python
   Pandas, NumPy
